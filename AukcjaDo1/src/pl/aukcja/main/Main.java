@@ -1,3 +1,4 @@
+package pl.aukcja.main;
 import pl.aukcja.gui.AukcjaScreen;
 
 public class Main {
