@@ -22,6 +22,7 @@ public class AukcjaScreen extends JFrame {
 	protected void createGui() {
 	    // ustalenie tytułu okna
 	    setTitle("Okno aplikacji");
+	    setSize(300, 300);
 
 
 	    setLayout(new FlowLayout());
@@ -43,7 +44,7 @@ public class AukcjaScreen extends JFrame {
 	    setDefaultCloseOperation(EXIT_ON_CLOSE);
 
 	    // ustalenie rozmiarów okna, np.:
-	    pack();
+	    //pack();
 
 	    // ustalenie położenia okna np. wycentrowanie
 
