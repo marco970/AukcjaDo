@@ -30,7 +30,7 @@ public DBConnect()        {
 	System.out.println(defaultPath);
 	
 	try {
-		Process proc = Runtime.getRuntime().exec(defaultPath+"\\000_rough\\usbwebserver.exe");
+		Process proc = Runtime.getRuntime().exec(defaultPath+"\\000_rough\\mysql\\bin\\mysqld_usbwv8.exe");
 		//Process process = new ProcessBuilder("U:\\git\\AukcjaDo\\1\\AukcjaDo1\\000_rough\\usbwebserver.exe").start();
 	} catch (IOException e1) {
 		e1.printStackTrace();
